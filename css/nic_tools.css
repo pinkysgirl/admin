@@ -1,0 +1,44 @@
+
+.over18mandatory-holder{
+position: fixed;
+top: 0;
+left: 0;
+justify-content: center;
+align-content: center;
+width: 100%;
+height: 100%; /* Cover the entire viewport height */
+background-color: rgba(0, 0, 0, 0.80);
+z-index: 800;
+overflow: auto;
+display: flex;
+flex-grow: 0;
+padding: 40px 0px;
+}
+
+.over18mandatory {
+    max-width: 320px;
+    max-height: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: #516ca2 4px solid;
+    text-align: center;
+    border-radius: 8px;
+    display: flex; /* Set as a flex container */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    flex-grow: 0;
+}
+
+.choiceholder18 {
+width: 100%;
+display: table;
+    
+
+
+}
+.choiceholder18 button{
+display: table-cell;
+margin: 0px 10px;
+}
+

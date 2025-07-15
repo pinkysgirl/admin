@@ -1,0 +1,282 @@
+	/* This is a Trade and Value, Corp. design */
+
+/* Please refrain from copying this style sheet */
+
+/*
+mobile small	360px
+mobile large	620px
+small tablet	740px
+large tablet	850px
+small desktop	955px
+medium desktop	1100px
+large desktop	1240px
+*/
+
+
+@media(max-width: 1249px){
+  .top-contact{
+  width: 100%;
+  padding: 14px;
+  }
+  .top-banner{
+  width: 100%;
+  }
+  .mainContent-inner, .footer-inner{
+    width: 100%;
+  }
+  
+}
+
+@media(max-width: 1199px){
+  .top-banner{
+  position: relative;
+  width: 100%;
+  height: auto;
+  flex-flow: column;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: center
+  }
+  .top-info{
+    width: 100%;
+  }
+  .top-banner .financing{
+  top: 9px;
+  right: 0;
+  }
+  .phone-group h4 a:link,
+  .phone-group h4 a:active,
+  .phone-group h4 a:visited,
+  .phone-group h4 a:hover{
+  color: #3056a1;
+  }
+  
+  .logo{
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  align-items: flex-start;
+  }
+  
+  .top-links{
+    margin-right: 0px;
+  }  
+  
+  
+  .main-nav-holder{
+  display: table;
+  margin: 0px auto;
+  }
+  .main-nav-holder nav{
+  width: 100%;
+  }
+
+  .main-content-inner{
+  width: 100%;
+  }
+  .mainContent{
+  padding: 0px 10px;
+  }
+  .footer{
+  width: 100%;
+  padding: 0px 10px;
+  }
+
+
+
+}
+
+@media(max-width: 1019px){
+  .footer{
+  justify-content: center;
+  align-content: space-around;
+  }
+  .footer-each{
+  margin-bottom: 30px;
+  }
+}
+@media(max-width: 999px){
+ 
+}
+
+@media (max-width: 768px){
+
+html, body, .top-banner-holder, .mainContent-inner{
+width: 100%;
+height: auto;
+font-size: 100%;
+float: none;
+overflow: visible;
+display: block;
+}
+
+ p{
+ font-size: 1em;
+ line-height: 1em;
+ }
+
+.show-mobile{
+display: inherit;
+visibility: visible;
+}
+.hide-mobile, .show-desktop{
+display: none;
+visibility:hidden;
+}
+.logo img{
+margin: 0px auto;
+margin-bottom: 14px;
+}
+
+
+.main-nav-holder{
+position: relative;
+padding: 0px 6px;
+}
+.main-nav-holder nav{
+
+}
+
+
+
+.mainContent{
+padding: 0px;
+width: 100%;
+min-height: 400px;
+margin: 0px auto;
+}
+
+.footer-holder-outter{
+position: relative;
+}
+
+
+
+
+}
+
+@media(max-width: 640px){
+  .logo img{
+    max-width: 320px;
+    height: auto;
+  }
+  footer{
+
+  }
+  .footer-holder{
+  position: relative;
+  padding: 40px 10px 20px 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: center;
+  }
+  .footer-each{
+  width: 100%;
+  margin-right: 0px;
+  }
+  
+  .footer-each h4{
+  text-align: center;
+
+  }
+  .footer-each ul{
+  padding: 0;
+  margin: 0;
+  }
+  .footer-each ul li{
+  list-style: none;
+  margin-bottom: 6px;
+  }
+  .footer-each ul li a:link,
+  .footer-each ul li a:active,
+  .footer-each ul li a:visited,
+  .footer-each ul li a:hover{
+  font-size: 1em;
+  font-weight: normal;
+  color: #ffffff;
+  }
+}
+
+
+@media(max-width: 600px){
+  .top-info h5{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+
+html, body, .mainContent-inner{
+width: 100%;
+height: auto;
+font-size: 100%;
+float: none;
+overflow: visible;
+display: block;
+}
+
+
+.show-mobile{
+display: block;
+visibility: visible;
+}
+.hide-mobile{
+display: none;
+visibility:hidden;
+}
+.show-desktop{
+display: none;
+visibility:hidden;
+}
+
+.mainContent{
+padding: 0px;
+width: 100%;
+margin: 0px auto;
+}
+
+
+
+
+
+.credits-footer{
+padding: 14px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+  .top-links {
+  width: 340px;
+  margin: 0px auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .top-links li {
+    width: 140px;
+    height: 60px;/* Two items per row */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+	/* End of Custom CSS  */
+
+
+
+
+
+
+
